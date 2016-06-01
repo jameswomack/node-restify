@@ -2,7 +2,7 @@
     "env": {
         "browser": false,
         "node": true,
-        "es6": false
+        "es6": true
     },
     "rules": {
         // possible errors
@@ -123,6 +123,20 @@
 
         "no-array-constructor": [ 2 ],
         "no-nested-ternary": [ 2 ],
-        "no-new-object": [ 2 ]
+        "no-new-object": [ 2 ],
+
+        "prefer-const": ["error", {
+          "destructuring": "any",
+          "ignoreReadBeforeAssign": false
+        }],
+        "generator-star-spacing": 2,
+        "no-const-assign": 2,
+        "no-empty-pattern": 2,
+        "no-useless-rename": 2,
+        "prefer-arrow-callback": 2,
+        "prefer-rest-params": 2,
+        "prefer-spread": 2,
+        "yield-star-spacing": 2,
+        "no-var": 2
     }
 }
