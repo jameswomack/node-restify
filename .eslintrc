@@ -129,7 +129,7 @@
           "destructuring": "any",
           "ignoreReadBeforeAssign": false
         }],
-        "generator-star-spacing": 2,
+        "generator-star-spacing": ["error", {"before": true, "after": true}],
         "no-const-assign": 2,
         "no-empty-pattern": 2,
         "no-useless-rename": 2,
